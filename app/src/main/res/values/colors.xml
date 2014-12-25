@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_color_dark">#00689b</color>
+    <color name="brand_color">#0579AC</color>
+    <color name="brand_color_transparent">#dd0579AC</color>
+    <color name="brand_color_extra_transparent">#330579AC</color>
+    <color name="brand_color_light">#0579AC</color>
+    <color name="product_grandient_start">#a01e1e1e</color>
+    <color name="product_grandient_end">#001e1e1e</color>
+    <color name="product_grandient_end_dark">#501e1e1e</color>
+    <color name="product_text">#ffffff</color>
+    <color name="transparent_dark_grey">#50333333</color>
+    <color name="transparent_dark_grey2">#C0333333</color>
+    <color name="loading_overlay">#90FFFFFF</color>
+
+    <!-- standard colors -->
+    <color name="white">#fff</color>
+    <color name="dark_grey">#333333</color>
+    <color name="gray">#666666</color>
+    <color name="light_gray">#999999</color>
+    <color name="extra_light_gray">#CCCCCC</color>
+    <color name="extra_extra_light_gray">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FEF9C2</color>
+    <color name="light_yellow">#FEE10C</color>
+    <color name="red">#EF4923</color>
+    <color name="blue">#00ACD0</color>
+    <color name="pressed_blue">#C800ACD0</color>
+    <color name="orange">#FF6600</color>
+    <color name="pressed_orange">#C8FF6600</color>
+    <color name="purple">#6B4194</color>
+    <color name="green">#648F00</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="transparent">#00000000</color>
+
+
+</resources>
