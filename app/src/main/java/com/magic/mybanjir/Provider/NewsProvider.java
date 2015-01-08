@@ -12,6 +12,6 @@ import retrofit.http.GET;
  */
 public interface NewsProvider {
 
-    @GET("/api/items")
+    @GET("/news.aspx")
     void getNews(Callback<List<Item>> callback);
 }

@@ -22,14 +22,14 @@
     <color name="extra_extra_light_gray">#EEEEEE</color>
     <color name="black">#000000</color>
     <color name="yellow">#FEF9C2</color>
-    <color name="light_yellow">#FEE10C</color>
-    <color name="red">#EF4923</color>
+    <color name="light_yellow">#55FEE10C</color>
+    <color name="red">#55FF3023</color>
     <color name="blue">#00ACD0</color>
     <color name="pressed_blue">#C800ACD0</color>
-    <color name="orange">#FF6600</color>
+    <color name="orange">#55FF6600</color>
     <color name="pressed_orange">#C8FF6600</color>
     <color name="purple">#6B4194</color>
-    <color name="green">#648F00</color>
+    <color name="green">#5540AF10</color>
     <color name="light_blue">#ADD8E6</color>
     <color name="transparent">#00000000</color>
 

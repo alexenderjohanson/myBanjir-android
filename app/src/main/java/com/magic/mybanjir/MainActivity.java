@@ -17,6 +17,7 @@ import android.view.ViewGroup;
 
 import com.crashlytics.android.Crashlytics;
 import com.magic.mybanjir.fragments.NewsFragment;
+import com.magic.mybanjir.fragments.RiverLevelFragment;
 import com.magic.mybanjir.fragments.TwitterFragment;
 import com.magic.mybanjir.views.SlidingTabLayout;
 
@@ -79,6 +80,7 @@ public class MainActivity extends ActionBarActivity {
         mViewPager.setOffscreenPageLimit(3);
 
         mSlidingTabLayout = (SlidingTabLayout) findViewById(R.id.stlSlidingTabs);
+//        mSlidingTabLayout.setCustomTabView(R.layout.tab_main_activity, R.id.tvTabTitle);
         mSlidingTabLayout.setViewPager(mViewPager);
         mSlidingTabLayout.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
 
@@ -140,13 +142,15 @@ public class MainActivity extends ActionBarActivity {
                     return new NewsFragment();
                 case 1:
                     return new TwitterFragment();
+                case 2:
+                    return new RiverLevelFragment();
             }
             return PlaceholderFragment.newInstance(position + 1);
         }
 
         @Override
         public int getCount() {
-            return 2;
+            return 3;
         }
 
         @Override
